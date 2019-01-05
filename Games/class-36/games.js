@@ -1,16 +1,18 @@
 const celeste = document.getElementById('celeste')
-const violeta = document.getElementById('violeta')
-const naranja = document.getElementById('naranja')
-const verde = document.getElementById('verde')
-const btnEmpezar = document.getElementById('btnEmpezar')
-class Juego {
+const violet = document.getElementById('violet')
+const orange = document.getElementById('orange')
+const green = document.getElementById('green')
+const buttonStar = document.getElementById('buttonStar')
+
+class Games {
   constructor() {
-    this.inicializar()
+    this.initialize()
   }
-  inicializar() {
-    btnEmpezar.classList.add('hide')
+  initialize() {
+    buttonStar.classList.add('hide')
   }
 }
-function empezarJuego() {
-  var juego = new Juego()
+
+function starGames() {
+  var games = new Games()
 }
